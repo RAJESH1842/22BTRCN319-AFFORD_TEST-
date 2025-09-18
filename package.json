@@ -1,0 +1,22 @@
+{
+  "name": "affordmed-url-shortener",
+  "version": "1.0.0",
+  "description": "URL Shortener microservice for AffordMed assessment",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "dotenv": "^17.2.2",
+    "express": "^4.18.2",
+    "mongoose": "^8.18.1",
+    "nanoid": "^3.3.11"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
